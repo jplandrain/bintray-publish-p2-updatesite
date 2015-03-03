@@ -14,7 +14,7 @@ deploy_updatesite
 }
 
 function deploy_updatesite() {
-echo "Bintray Username: ${BINTRAY_USER}"
+echo "Bintray user: ${BINTRAY_USER}"
 echo "Bintray ApiKey: ${BINTRAY_API_KEY}"
 echo "Bintray Owner: ${BINTRAY_OWNER}"
 echo "Bintray Repository: ${BINTRAY_REPO}"
