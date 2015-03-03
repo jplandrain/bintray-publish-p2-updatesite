@@ -27,7 +27,7 @@ if [ ! -z "$PATH_TO_REPOSITORY" ]; then
    cd $PATH_TO_REPOSITORY
    if [ $? -ne 0 ]; then
      #directory does not exist
-     echo $PATH_TO_REPOSITORY " does not exist"
+     echo "Local Path $PATH_TO_REPOSITORY does not exist"
      exit 1
    fi
 fi
