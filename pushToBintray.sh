@@ -14,13 +14,14 @@ deploy_updatesite
 }
 
 function deploy_updatesite() {
-echo "${BINTRAY_USER}"
-echo "${BINTRAY_API_KEY}"
-echo "${BINTRAY_OWNER}"
-echo "${BINTRAY_REPO}"
-echo "${PCK_NAME}"
-echo "${PCK_VERSION}"
-echo "${PATH_TO_REPOSITORY}"
+username apikey owner repo package version pathToP2Repo
+echo "Bintray Username: ${BINTRAY_USER}"
+echo "Bintray ApiKey: ${BINTRAY_API_KEY}"
+echo "Bintray Owner: ${BINTRAY_OWNER}"
+echo "Bintray Repository: ${BINTRAY_REPO}"
+echo "Bintray Package name: ${PCK_NAME}"
+echo "Bintray Package version: ${PCK_VERSION}"
+echo "Local Path: ${PATH_TO_REPOSITORY}"
 
 if [ ! -z "$PATH_TO_REPOSITORY" ]; then
    cd $PATH_TO_REPOSITORY
