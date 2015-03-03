@@ -14,7 +14,6 @@ deploy_updatesite
 }
 
 function deploy_updatesite() {
-username apikey owner repo package version pathToP2Repo
 echo "Bintray Username: ${BINTRAY_USER}"
 echo "Bintray ApiKey: ${BINTRAY_API_KEY}"
 echo "Bintray Owner: ${BINTRAY_OWNER}"
